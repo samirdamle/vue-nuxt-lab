@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # lab
 
 > lab
@@ -20,3 +21,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+=======
+# vue-nuxt-lab
+A lab experimenting with Vue.js with Nuxt framework
+>>>>>>> b35c07ac348db9a84c72a949b799b375d7eea73e
