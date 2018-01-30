@@ -1,5 +1,44 @@
 <template>
     <div>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io" style="padding: 0 42px 0 43px;">
+                    <i class="fas fa-coffee"></i> &nbsp; COMPANY LOGO
+                    <!--<img src="../assets/img/interos-logo-md.png" alt="Interos logo">-->
+                </a>
+
+                <button class="button navbar-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                        <i class="fal fa-fire"></i> &nbsp; Enterprise Risk Threshold
+                    </a>
+                    <a class="navbar-item">
+                        <i class="fal fa-book"></i> &nbsp; Portfolios
+                    </a>
+                    <a class="navbar-item">
+                        <i class="fal fa-shopping-cart"></i> &nbsp; Vendors
+                    </a>
+                </div>
+                <div class="navbar-end">
+
+                    <a class="navbar-item">
+                        <i class="fal fa-user"></i> &nbsp; John Smith
+                    </a>
+                    <a class="navbar-item">
+                        <i class="fal fa-cog"></i> &nbsp; Settings
+                    </a>
+                    <a class="navbar-item">
+                        <i class="fal fa-sign-out"></i> &nbsp; Sign out
+                    </a>
+                </div>
+            </div>
+        </nav>
         <nuxt/>
     </div>
 </template>
